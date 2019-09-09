@@ -132,12 +132,14 @@ wget https://raw.githubusercontent.com/opensds/opensds/stable/capri/docker-compo
 docker-compose up -d
 
 ```
-The above script does following things to install OpenSDS
-* Create OpenSDS configuration file `/etc/opensds/opensds.conf`
-* Create lvm backend configuration file `/etc/opensds/driver/lvm.yaml`
-* Create lvm volume group `opensds-volumes`
-* Download `/etc/opensds/policy.json` for Authorization
-* Download docker-compose.yml file and bring up OpenSDS docker containers
+
+The above script does following things to install OpenSDS  
+
+- Create OpenSDS configuration file `/etc/opensds/opensds.conf`  
+- Create lvm backend configuration file `/etc/opensds/driver/lvm.yaml`  
+- Create lvm volume group `opensds-volumes`  
+- Download `/etc/opensds/policy.json` for Authorization  
+- Download docker-compose.yml file and bring up OpenSDS docker containers  
 
 ## Test  
 

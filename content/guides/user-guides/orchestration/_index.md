@@ -32,7 +32,7 @@ Apart from OpenSDS dashboard, user can directly use the REST Apis to achieve the
 Please refer to the OpenAPI-specs of Orchestration for more details. [Click Here <i class="fas fa-external-link-alt"></i>](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/opensds/orchestration/master/openapi-spec/swagger.yaml)
 {{% /notice%}}
 
-### Prerequisites
+#### Prerequisites
     a) OpenSDS is installed and user can log-in into the Dashboard
     b) All the required components are installed and running properly
 
