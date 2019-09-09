@@ -2,7 +2,7 @@
 title: OpenSDS Architecture
 description: ""
 weight: 30
-disableToc: true
+disableToc: false
 ---
 
 ![OpenSDS Architecture](opensds-data-platform-architecture.png)
