@@ -13,3 +13,7 @@ It is a software defined storage controller that provides unified block, file, o
 - **Simple**: well-defined API that follows the OpenAPI specification.
 - **Lightweight**: no external dependencies, deployed once in binary file or container.
 - **Extensible**: pluggable framework available for different storage systems, identity services, capability filters, etc.
+
+## Table of Contents
+
+{{% children depth="4" %}}
