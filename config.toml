@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  editURL = "https://github.com/anvithks/documentation/edit/hugo-docs-learn-theme/content"
   description = "Documentation for OpenSDS"
   author = "OpenSDS Authors"
   showVisitedLinks = false
