@@ -4,7 +4,7 @@ title: "OpenSDS Documentation"
 
 # Welcome to OpenSDS’ documentation!
 
-### This is v0.1
+### This is v0.1 of the OpenSDS Documentation. It corresponds to v0.6.1 of OpenSDS
 
 [OpenSDS](http://github.com/opensds/opensds) is an industry-wide open source project **under Linux Foundation** for software-defined storage management, which promotes the use of simplified storage interfaces using a scalable storage controller architecture with open standard APIs, with the objective of providing application-oriented storage services.
 
