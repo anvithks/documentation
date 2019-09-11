@@ -4,6 +4,8 @@ title: "OpenSDS Documentation"
 
 # Welcome to OpenSDS’ documentation!
 
+### This is v0.1
+
 [OpenSDS](http://github.com/opensds/opensds) is an industry-wide open source project **under Linux Foundation** for software-defined storage management, which promotes the use of simplified storage interfaces using a scalable storage controller architecture with open standard APIs, with the objective of providing application-oriented storage services.
 
 The [OpenSDS Project](https://opensds.io) is a collaborative project under Linux Foundation supported by storage users and vendors, including Dell EMC, Intel, Huawei, Fujitsu, Western Digital, Vodafone, NTT and Oregon State University. The project will also seek to collaborate with other upstream open source communities such as Cloud Native Computing Foundation, Docker, OpenStack, and Open Container Initiative
