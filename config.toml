@@ -1,4 +1,4 @@
-baseURL = "https://soda-docs.netlify.com/"
+baseURL = "https://v1.2.0-sodadocs.netlify.app/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 googleAnalytics = "UA-138679091-1"
@@ -10,7 +10,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/sodafoundation/documentation/edit/master/content/"
+  editURL = "https://github.com/anvithks/documentation/edit/v1.2.0/content/"
   description = "Documentation for SODA"
   author = "SODA Authors"
   showVisitedLinks = false
