@@ -19,9 +19,15 @@ apt-get update && apt-get install -y git make curl wget libltdl7 libseccomp2 lib
 ```
 #### Install docker:
 
+##### For Ubuntu 16.04
 ```bash
 wget https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_18.06.1~ce~3-0~ubuntu_amd64.deb
 ```
+##### For Ubuntu 18.04
+```bash
+wget https://download.docker.com/linux/ubuntu/dists/bionic/pool/stable/amd64/docker-ce_18.06.1~ce~3-0~ubuntu_amd64.deb
+```
+
 ```bash
 dpkg -i docker-ce_18.06.1~ce~3-0~ubuntu_amd64.deb
 ```
@@ -52,8 +58,8 @@ go version
 ```bash
 git clone https://github.com/sodafoundation/installer.git
 cd installer/ansible
-# Checkout the required version. For example, to checkout v1.0.0 follow
-git checkout v1.0.0
+# Checkout the required version. For example, to checkout v1.1.0 follow
+git checkout v1.1.0
 ```
 {{% notice warning %}}
 Checkout the latest stable release. Current stable release: stable/faroe. If you want to get the master branch of all components, you can skip this step. (Master may not be stable or tested fully)
