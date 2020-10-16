@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo"
 
 [context.production.environment]
-  HUGO_VERSION = "0.55.6"
+  HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -11,7 +11,7 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.55.6"
+HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
@@ -23,8 +23,15 @@ HUGO_VERSION = "0.55.6"
 [context.branch-deploy]
 command = "hugo -b $DEPLOY_PRIME_URL"
 
+[context."v1.1.0"]
+  command = "echo 'deploying v1.1.0'"
+  base = "v1.1.0"
+[context."v1.2.0"]
+  command = "echo 'deploying v1.1.0'"
+  base = "v1.2.0"
+
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.55.6"
+HUGO_VERSION = "0.76.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
