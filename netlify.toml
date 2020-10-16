@@ -25,7 +25,6 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context."v1.1.0"]
   command = "echo 'deploying v1.1.0'"
-  publish = "public"
 
 
 [context.branch-deploy.environment]
