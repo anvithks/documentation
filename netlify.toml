@@ -24,7 +24,7 @@ HUGO_VERSION = "0.55.6"
 command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context."v1.1.0"]
-  command = "echo 'deploying v1.1.0'"
+  command = "hugo"
 
 
 [context.branch-deploy.environment]
